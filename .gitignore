@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# Env folders
+.venv/
+venv/
+env/
+
+# Ignore only specific data folders
+data/results/combined/
+data/results/races/
+data/results/wc/
+
