@@ -6,20 +6,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-cleaned = "https://drive.google.com/file/d/1k3Trhg6lI6_SAvLaPP7b-t2UhtHutZ9E/view?usp=sharing"
-cleaned = "https://drive.google.com/uc?export=download&id=1k3Trhg6lI6_SAvLaPP7b-t2UhtHutZ9E"
-
-cleaned_inc_WC = "https://drive.google.com/file/d/1HB9MeySUp7P28-zCE4taQgnvZisFLcFc/view?usp=sharing"
-cleaned_inc_WC = "https://drive.google.com/uc?export=download&id=1HB9MeySUp7P28-zCE4taQgnvZisFLcFc"
-
-WC = "https://drive.google.com/file/d/1WIa8fTSU2OvVWDq1dEnvFex_OIa4whcq/view?usp=drive_link"
-WC = "https://drive.google.com/uc?export=download&id=1WIa8fTSU2OvVWDq1dEnvFex_OIa4whcq"
-
-all_races = "https://drive.google.com/file/d/1XbgeVdOjk_ocPFm9Md0fCyIy4nQ7C92C/view?usp=sharing"
-all_races = "https://drive.google.com/uc?export=download&id=1XbgeVdOjk_ocPFm9Md0fCyIy4nQ7C92C"
-
-qualified = "https://drive.google.com/file/d/1P45pt4A1-mB9q35JhErz-swZ6UM-JbcG/view?usp=sharing"
-qualified = "https://drive.google.com/uc?export=download&id=1P45pt4A1-mB9q35JhErz-swZ6UM-JbcG"
 # Load data from Parquet
 @st.cache_data
 def load_data():
