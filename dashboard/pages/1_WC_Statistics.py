@@ -8,7 +8,7 @@ import seaborn as sns
 # Load data from Parquet
 @st.cache_data
 def load_data():
-    data_path = "data/results/cleaned/cleaned_races_wc.parquet"
+    data_path = "https://drive.google.com/uc?export=download&id=1WIa8fTSU2OvVWDq1dEnvFex_OIa4whcq"
     data = pd.read_parquet(data_path)
     return data
 

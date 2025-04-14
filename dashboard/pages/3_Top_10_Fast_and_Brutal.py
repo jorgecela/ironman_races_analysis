@@ -6,13 +6,13 @@ import seaborn as sns
 # Load data from Parquet
 @st.cache_data
 def load_data():
-    data_path = "data/results/cleaned/cleaned_races_data.parquet"
+    data_path = "https://drive.google.com/uc?export=download&id=1k3Trhg6lI6_SAvLaPP7b-t2UhtHutZ9E"
     data = pd.read_parquet(data_path)
     return data
 
 @st.cache_data
 def load_races():
-    race_path = "data/urls/all_ironman_races.csv"
+    race_path = "https://drive.google.com/uc?export=download&id=1XbgeVdOjk_ocPFm9Md0fCyIy4nQ7C92C"
     races = pd.read_csv(race_path)
     return races
 
